@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InputSearch = () => {
+const SearchProducts = () => {
   return (
     <div className="flex border border-gray-300 items-center p-4 rounded-lg ml-auto outline-none gap-3">
       <img src="/src/assets/icons/ic_outline-search.svg" alt="Search icon" />
@@ -9,4 +9,4 @@ const InputSearch = () => {
   );
 };
 
-export default InputSearch;
+export default SearchProducts;

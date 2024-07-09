@@ -127,38 +127,6 @@ const ListProducts = [
     product_name: 'The Lean Startup',
     price: '$ 14.99',
   },
-  {
-    id: 17,
-    image: 'https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg',
-    category: 'Jewelry',
-    desc: "Elevate your jewelry collection with the Women's Platinum-Plated Sterling Silver Round-Cut Ring. Crafted from premium materials, this exquisite ring features a round-cut cubic zirconia stone set in platinum-plated sterling silver. Its timeless design and sparkling brilliance make it a standout accessory for formal occasions or everyday wear. Whether worn alone or paired with other pieces, this ring adds elegance and sophistication to any ensemble.",
-    product_name: 'Platinum-Plated Ring',
-    price: '$ 79.99',
-  },
-  {
-    id: 18,
-    image: 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg',
-    category: 'Electronics',
-    desc: 'Enhance your workspace with the HP 23.8-inch FHD IPS Monitor. Featuring a sleek design and vibrant display, this monitor delivers crisp images and wide viewing angles for an immersive visual experience. With adjustable tilt and height settings, you can customize your viewing preferences for optimal comfort and productivity. Whether used for work or entertainment, the HP Monitor offers superior performance and reliability.',
-    product_name: 'HP FHD IPS Monitor',
-    price: '$ 159.99',
-  },
-  {
-    id: 19,
-    image: 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg',
-    category: 'Home & Living',
-    desc: 'Bring a touch of artistry to your home decor with the Red and White Ceramic Vase. Handcrafted from high-quality ceramic, this vase features an eye-catching design and vibrant colors that complement any interior style. Whether displayed on its own or filled with fresh flowers, this vase adds elegance and sophistication to mantels, shelves, and tabletops. Its timeless appeal makes it a perfect accent piece for both modern and traditional spaces.',
-    product_name: 'Ceramic Vase',
-    price: '$ 29.99',
-  },
-  {
-    id: 20,
-    image: 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg',
-    category: 'Electronics',
-    desc: 'Experience cutting-edge technology with the Samsung Galaxy S20 Ultra 5G. Featuring a revolutionary camera system with a 108MP wide lens and 100x Space Zoom, this smartphone captures stunning photos and videos in any environment. Its 6.9-inch Infinity-O display delivers immersive visuals, while 5G connectivity ensures fast speeds for streaming and gaming. Whether for work or play, the Galaxy S20 Ultra 5G offers unparalleled performance and versatility.',
-    product_name: 'Samsung Galaxy S20 Ultra',
-    price: '$ 1199.99',
-  },
 ];
 
 export default ListProducts;

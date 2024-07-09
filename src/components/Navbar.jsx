@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import InputSearch from './InputSearch';
+import SearchProducts from './SearchProducts';
 
 const Navbar = () => {
   return (
@@ -20,9 +20,8 @@ const Navbar = () => {
         <NavLink exact to="/products" activeClassName="nav-active" className="hover:text-slate-500 transition-all ease-in-out">
           Products
         </NavLink>
-        
       </nav>
-      <InputSearch />
+      <SearchProducts />
     </header>
   );
 };
