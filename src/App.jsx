@@ -1,9 +1,6 @@
 import React from 'react';
 import './index.css';
-import { NavLink, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Hero from './view/Hero';
-import DisplayProducts from './view/DisplayProducts';
+import { Route, Routes } from 'react-router-dom';
 import DetailsProducts from './view/DetailsProducts';
 import Home from './pages/Home';
 import Footer from './view/Footer';

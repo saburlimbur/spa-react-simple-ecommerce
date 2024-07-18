@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import SearchProducts from './SearchProducts';
 
 const Navbar = () => {
+
   return (
     <header className="font-bold text-md flex items-center bg-[#ffffff] border border-b-slate-300 w-full py-[20px] px-[80px] ml-auto">
       <div className="mr-[18rem]">
@@ -13,13 +14,14 @@ const Navbar = () => {
         <NavLink
           // to="/about"
           activeClassName="nav-active"
-          className="hover:text-slate-500 transition-all ease-in-out"
-        >
+          className="hover:text-slate-500 transition-all ease-in-out">
           About
         </NavLink>
+
         <NavLink exact to="/products" activeClassName="nav-active" className="hover:text-slate-500 transition-all ease-in-out">
           Products
         </NavLink>
+
       </nav>
       <SearchProducts />
     </header>

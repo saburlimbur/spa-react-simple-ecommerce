@@ -10,17 +10,20 @@ const Hero = () => {
   };
   return (
     // UI
-    <section className="w-full h-[600px] flex justify-center items-center" style={heroImage}>
+    <section className="w-full h-[600px] flex justify-center items-center select-none" style={heroImage}>
+
       <div className="w-[800px] h-[380px] flex flex-col justify-center items-start mx-auto gap-7 leading-6">
         <h1 className="text-white font-semibold text-6xl uppercase">
           hello everyone <br /> here is the new collection
         </h1>
+        
         <div className="w-[550px]">
           <p className="text-gray-300 text-md">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
         </div>
+
       </div>
     </section>
   );
