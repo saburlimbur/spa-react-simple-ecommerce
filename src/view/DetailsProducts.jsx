@@ -1,5 +1,5 @@
 import React from 'react';
-import ListProducts from '../constant/ListProducts';
+import ListProducts from '../components/constant/ListProducts';
 import { Link, useParams } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 

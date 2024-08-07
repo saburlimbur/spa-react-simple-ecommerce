@@ -41,7 +41,7 @@ const ListProducts = [
   },
   {
     id: 6,
-    image: 'https://fakestoreapi.com/img/61XKvo-nQVL._AC_UX679_.jpg',
+    image: 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg',
     category: 'Home & Living',
     desc: 'Illuminate your space with the Modern Industrial Lamp. Featuring a sleek metal base and adjustable arm, this lamp offers versatile lighting solutions for any room. Its minimalist design complements modern decor, making it ideal for desks, nightstands, or living room tables. Whether used for reading, working, or ambiance, this lamp adds style and functionality to your home or office.',
     product_name: 'Industrial Lamp',
